@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화정보</title>
+  <script src="script/jquery-3.6.0.min.js"></script>
+  <!-- scrollTo.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js" integrity="sha512-PsJ1f4lw0Jrga4wbDOvdWs9DFl88C1vlcH2VQYqgljHBmzmqtGivUkzRHWx2ZxFlnysKUcROqLeuOpYh9q4YNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- 웹폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- fontawesome 아이콘 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- 사용자 css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="main-header">
+    <h1>
+      <a href="./">
+        <img 
+          src="images/marvel logo.png" 
+          width="120" 
+          alt="marvel"
+        >
+      </a>
+    </h1>
+    <!-- 내부 콘텐츠 이동(싱글페이지) -->
+    <nav id="gnb">
+      <ul>
+        <li>
+          <a href="#captain-marvel">
+            <img src="images/captain-marvel-nav.jpg" alt="캡틴마블">
+            <div class="title">캡틴마블</div>
+          </a>
+        </li>
+        <li>
+          <a href="#black-widow">
+            <img src="images/blackwidow-nav.jpg" alt="블랙위도우">
+            <div class="title">블랙위도우</div>
+          </a>
+        </li>
+        <li>
+          <a href="#thanos">
+            <img src="images/thanos-nav.jpg" alt="타노스">
+            <div class="title">타노스</div>
+          </a>
+        </li>
+        <li>
+          <a href="#ironman">
+            <img src="images/ironman-nav.jpg" alt="아이언맨">
+            <div class="title">아이언맨</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="captain-marvel">
+    <div class="container">
+      <h1>captain marvel</h1>
+      <p>Former Air Force pilot and intelligence agent Carol Danvers pursued her dream of space exploration as a NASA employee, but her life forever changed when she was accidentally transformed into a human-Kree hybrid with extraordinary powers.</p>
+      <p>Now, Carol is the latest warrior to embrace the mantle of Captain Marvel, and she has taken her place as one of the world’s mightiest heroes.</p>
+      <h2>Higher, Further, Faster, More</h2>
+      <p>As a NASA security officer, Carol investigated numerous attempts made by the Kree and Skrulls to infiltrate Kennedy Space Center and disrupt America’s space program. During a battle between the heroic Mar-Vell and his rival, Yon-Rogg, Carol was exposed to the Psyche-Magnitron, a Kree device that could make imagination into reality. Carol subconsciously envied Mar-Vell’s powers, and the machine responded to those desires by rewriting her DNA to make her a human/Kree hybrid with abilities similar to his.</p>
+      <div class="banner">
+        <img width="100%" src="images/captain-marvel-banner2.jpg" alt="캡틴마블">
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <section id="black-widow">
+    <div class="container">
+      <h1>black widow</h1>
+      <p>Natalia Alianovna Romanoff was born on December 3,[8] 1984[1] in Stalingrad, Russia. As an infant, she was deemed by the Red Room to possess genetic potential, and was purchased from her birth family. However, Romanoff's mother was not in agreement and proceeded to search for her, until General Dreykov had her killed to prevent the Red Room Program's existence from being revealed.</p>
+      <h2>Trained by the Best</h2>
+      <p>I used to have nothing. And then I got this. This job. This family. And I was better because of it. And even though they're gone... I'm still trying to be better.</p>
+      <div class="banner">
+        <img width="100%" src="images/blackwidow-banner1.webp" alt="블랙위도우">
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <!-- 타노스 -->
+  <section id="thanos">
+    <div class="container">
+      <h1>thanos</h1>
+      <p>Thanos was one of the last sons of A'Lars, progenitor of the second colony of Eternals on Titan, and Sui-San, the last survivor of the original settlement of Eternals in this moon. He was born with purple, hide-like skin and a massive body due to his Deviant Syndrome. The very first time his mother laid her eyes on the baby, she was driven mad and tried to kill him.</p>
+      <h2>For Death’s Sake</h2>
+      <p>Am I not Thanos! Did I not butcher the woman who gave me birth, who force-fed me into this hell called life?! Is not the wake of my passing crimson with the blood of my enemies and allies alike?! Death is with me every second of the day! My every moment is spent in either dealing out death or worshiping it! So tell me, who under the stars is better suited than I to be Death's consort?</p>
+      <div class="banner">
+        <img width="100%" src="images/thanos-banner1.jpg" alt="타노스">
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <!-- 아이언맨 -->
+  <section id="ironman">
+    <div class="container">
+      <h1>ironman</h1>
+      <p>Genius. Billionaire. Philanthropist. Tony Stark's confidence is only matched by his high-flying abilities as the hero called Iron Man.</p>
+      <h2>I am IRON MAN.</h2>
+      <p>Tony Stark is a genius inventor and billionaire industrialist, who suits up in his armor of cutting-edge technology to become the super hero Iron Man. The adopted son of weapons manufacturer Howard Stark,[47] Tony inherited his family's company at a young age following his parents' death.[48] While overseeing a manufacturing plant in a foreign country, Stark was kidnapped by local terrorists. Instead of giving in to his captors' demands to build weapons for them, Stark created a powerful suit of armor for himself to escape.[49] Returning to America, Stark further upgraded the armor and put his vast resources and intellect to use for the betterment of the world as Iron Man</p>
+      <div class="banner">
+        <img width="100%" src="images/ironman-banner1.jpg" alt="아이언맨">
+      </div>
+    </div><!-- container -->
+  </section>
+
+  <footer id="main-footer">
+    <p>copyright &copy; marvel.com allright reserved.</p>
+</footer>
+
+  <script>
+    $(function(){
+      var scollSpeed = 500; // 스크롤 속도
+
+      $('#gnb ul li a').click(function(){
+          // 이동할 섹션이름(#id)
+          var goPage = $(this).attr('href');
+          // goPage의 Y 좌표
+          var pageY = $(goPage).offset().top;
+          console.log(pageY);
+          $(window).scrollTo({ 
+              left: 0,
+              top: pageY 
+          }, scollSpeed);
+      })
+
+    });
+
+  </script>
+</body>
+</html>
